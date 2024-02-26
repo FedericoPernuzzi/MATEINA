@@ -26,6 +26,7 @@ ul {
 .encabezado {
     display: flex;
     flex-direction: column;
+    background-color: black;
 }
 
 .navegador {
@@ -35,7 +36,7 @@ ul {
 
 .navegador-lista {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     flex-wrap: wrap;
     background-color: black;
 }
@@ -74,7 +75,6 @@ ul {
     font-weight: 700;
     color:black;
     font-size: 30px;
-
 }
 
 /* Productos*/
@@ -142,8 +142,3 @@ section {
         background-color: aqua;
     }
 }
-
-
-/*desktop por el momento no llegué a aplicar lo deseado*/
-
-
