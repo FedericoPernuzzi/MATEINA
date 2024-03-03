@@ -162,7 +162,7 @@ section {
 .pie {
     background-color: gray;
     list-style: none;
-    display: flex;
+    display: column-reverse;
     justify-content: center;
     align-items: center;
 }
@@ -170,6 +170,7 @@ section {
 .navegador2-lista {
     list-style: none;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
 }
 
@@ -177,6 +178,23 @@ section {
     text-decoration: none;
     margin: 0% 25px;
     color: black; 
+}
+
+.redes-sociales {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.redes-sociales a {
+    margin: 0 10px;
+    text-decoration: none; 
+}
+
+.redes-sociales img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
 
 /* mobile */
