@@ -133,6 +133,9 @@ ul {
 }
 
 .lista-producto-info {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
     object-fit: cover;
 }
 
@@ -154,6 +157,24 @@ section {
     margin: 50px auto;
 }
 
+.boton-compra {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #8B4513;
+    color: #8B4513;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.boton-compra:hover {
+    background-color: #8B4513;
+    color: #fff;
+}
 /*Empresa*/
 /*Contacto*/
 
