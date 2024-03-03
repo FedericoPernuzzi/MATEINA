@@ -30,8 +30,20 @@ ul {
 }
 
 .navegador {
-    width: 100%;
-    height: 2rem;
+    background-color: #8B4513;
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+    margin: 0 10px;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.menu-navegacion a:hover {
+    color: #D2B48C; /* Marrón más claro al pasar el ratón */
 }
 
 .navegador-lista {
